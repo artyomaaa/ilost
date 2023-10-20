@@ -1,0 +1,116 @@
+/*.single_product_table{*/
+/*display: block;*/
+/*float: left;*/
+/*width: 504px;*/
+/*height: auto;*/
+/*}*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.single_product_thumb {
+    width: 100%;
+!important;
+}
+
+.button-float {
+    width: 100%;
+    height: auto;
+}
+
+.button-float button {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.modal-dialog {
+    width: 600px !important;
+    margin-left: 495px !important;
+}
+
+#map {
+    width: 100%;
+    height: 400px !important;
+    background-color: grey;
+}
+
+.modal-content {
+    width: 480px !important;
+}
+
+@media (min-width: 481px) {
+    .modal-dialog {
+        max-width: 480px;
+        margin: 1.75rem auto;
+    }
+}
+
+.single_product_desc.clearfix span {
+    color: #3247a9 !important;
+    text-transform: none;
+
+}
+
+.single_product_details_area .col-md-6 {
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .modal-dialog {
+        width: 100% !important;
+        max-width: 480px !important;
+        margin: 0 !important;
+        padding-top: 50px;
+    }
+
+    .modal-content {
+        width: 100% !important;
+    }
+}
+
+.iLost-logo {
+    width: 90px;
+    height: 90px;
+}
+.contact-modal{
+    padding-top: 151px;
+}
+.contact-user-error{
+    padding: 0;
+}
+.contact-user-error p {
+    font-size: 16px;
+    text-align: center;
+}
+.contact-modal .modal-dialog{
+    margin: auto;
+}
+.contact-modal .modal-content {
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 513px!important;
+    box-shadow: 17px 6px 25px -6px;
+    height: auto;
+
+}
+.iLost-logo {
+    margin: auto
+}
+#close-contact{
+    opacity: 2!important;
+    margin: auto;
+}
+.contact-modal .modal-header, .modal-footer{
+    border: none!important;
+    padding-top: 0;
+}
+.contact-modal .modal-header{
+    padding-top: 0;
+
+}
+.modal-backdrop.show{
+    opacity: 0.3;
+}

@@ -1,0 +1,90 @@
+.user-table {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 50px 0 60px 0;
+    margin-bottom: 100px;
+}
+
+.user-table form {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    /*background-color: #727fbc;*/
+    /*opacity: 0.9;*/
+    /*border-radius: 10px;*/
+}
+
+.user-table form input {
+    padding: 10px;
+}
+
+.user-table .field-wrap i {
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #4659B0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0 , 0 );
+}
+
+.change {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    /*transition: font-size 5s, transform 2s;*/
+    transition: box-shadow 0.4s cubic-bezier(0.4, 0, 1, 1),  font-size 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow, font-size, top, right;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1), cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s, 0s;
+}
+
+.change:hover {
+    box-shadow:0 1px 8px 3px rgba(12, 131, 226, 0.14);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0 , 0 )!important;
+    top: 8px!important;
+    right: 3px!important;
+}
+.user-table form input{
+    height: 42px;
+}
+.done{
+    display: none;
+    color: forestgreen!important;
+    font-size: 20px;
+}
+.close-input{
+    display: none;
+    color: red !important;
+    font-size: 20px;
+}
+.change-password-table{
+    width: 70%;
+    margin: auto;
+    padding: 50px 10px 30px 10px;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 9px 6px 2px rgba(40, 40, 40, 0.69);
+    display: none;
+}
+.change-password-table .done,
+.change-password-table .close-input{
+    right: 156px!important;
+    top:52px!important;
+
+}
+#user-data-messages{
+    padding: 0 20px;
+}
+@media (max-width: 480px) {
+    .user-table form{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .change-password-table .done,
+    .change-password-table .close-input{
+        right: 82px!important;
+    }
+}

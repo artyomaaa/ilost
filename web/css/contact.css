@@ -1,0 +1,32 @@
+.contact-body{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    padding-top:79px ;
+    padding-bottom: 77px;
+    margin-bottom: 100px;
+}
+.map{
+    width:100%;
+    height:auto;
+}
+.contact-table{
+    padding: 10px 50px 0 50px;
+}
+.contact-table textarea{
+    resize: none;
+    height: 123px!important;
+}
+.contact-error-massage{
+    color: red;
+    font-size: 14px;
+}
+@media only screen and (max-width: 480px) {
+    .col-md-6{
+        padding: 0!important;
+    }
+    .contact-table{
+        padding: 10px;
+    }
+}

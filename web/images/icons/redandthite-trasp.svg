@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293 159">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 142px;
+        font-family: Ubuntu;
+      }
+
+      .cls-2 {
+        fill: #ebebec;
+      }
+
+      .cls-3 {
+        fill: #cdcdd0;
+      }
+
+      .cls-4 {
+        fill: #78b9eb;
+      }
+
+      .cls-5 {
+        fill: #5a8bb0;
+      }
+
+      .cls-7 {
+        fill: #dedde0;
+      }
+
+      .cls-8 {
+        fill: #ff5023;
+      }
+
+      .cls-9 {
+        fill: #bf3c1a;
+      }
+    </style>
+  </defs>
+  <g id="redandthite" transform="translate(-156 -117)">
+    <text id="L_st" data-name="L   st" class="cls-1" transform="translate(156 249)"><tspan x="0" y="0" xml:space="preserve">L   st</tspan></text>
+    <g id="compass" transform="translate(225 151)">
+      <g id="XMLID_1118_">
+        <circle id="XMLID_1119_" class="cls-2" cx="53" cy="53" r="53"/>
+      </g>
+      <g id="XMLID_1120_" transform="translate(53)">
+        <path id="XMLID_1121_" class="cls-3" d="M170,0a53,53,0,0,1,0,106" transform="translate(-170)"/>
+      </g>
+      <g id="XMLID_1122_" transform="translate(9.353 9.353)">
+        <circle id="XMLID_1123_" class="cls-4" cx="43.647" cy="43.647" r="43.647"/>
+      </g>
+      <g id="XMLID_1124_" transform="translate(53 9.353)">
+        <path id="XMLID_1125_" class="cls-5" d="M170,30a43.647,43.647,0,1,1,0,87.294" transform="translate(-170 -30)"/>
+      </g>
+      <g id="XMLID_1126_" transform="translate(40.529 18.706)">
+        <g id="XMLID_1127_">
+          <path id="XMLID_18_" class="cls-6" d="M130,94.294h24.941L142.471,60Z" transform="translate(-130 -60)"/>
+        </g>
+        <g id="XMLID_1128_" transform="translate(12.471)">
+          <path id="XMLID_17_" class="cls-7" d="M170,94.294h12.471L170,60Z" transform="translate(-170 -60)"/>
+        </g>
+        <g id="XMLID_1129_" transform="translate(0 34.294)">
+          <path id="XMLID_16_" class="cls-8" d="M130,170h24.941l-12.471,34.294Z" transform="translate(-130 -170)"/>
+        </g>
+        <g id="XMLID_1130_" transform="translate(12.471 34.294)">
+          <path id="XMLID_15_" class="cls-9" d="M170,170h12.471L170,204.294Z" transform="translate(-170 -170)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
